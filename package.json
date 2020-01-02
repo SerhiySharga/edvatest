@@ -1,0 +1,23 @@
+{
+  "name": "edvtests",
+  "version": "1.0.0",
+  "description": "Test progect to learn JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "first": "node first.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SerhiySharga/edvatest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SerhiySharga/edvatest/issues"
+  },
+  "homepage": "https://github.com/SerhiySharga/edvatest#readme",
+  "dependencies": {
+    "faker": "^4.1.0"
+  }
+}
