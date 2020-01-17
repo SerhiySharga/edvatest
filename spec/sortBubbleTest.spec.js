@@ -1,6 +1,6 @@
 const {bubbleSort} = require("../src/sortBubble");
 
-fdescribe('Sorting for array', () => {
+describe('Sorting for array', () => {
     const array = [6, 3, 2, 9, 1, 10, 15, -4, -7];
 
     it('Verify sorting', () => {

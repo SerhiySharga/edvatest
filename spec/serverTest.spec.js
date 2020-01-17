@@ -1,7 +1,7 @@
 const {server} = require("../src/app2.js");
 const request = require("request-promise");
 
-fdescribe('Testing server', () => {
+describe('Testing server', () => {
     beforeAll(() => {
         server.listen(3001);
     })
