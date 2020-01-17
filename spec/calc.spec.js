@@ -1,4 +1,4 @@
-const {addFunc} = require("../src/calc");
+const {addFunc} = require("../src/calc/calc");
 
 describe('Adding two numbers', () => {
     it('Test2', () => {

@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jasmine",
-    "first": "node src/calc.js",
+    "first": "node src/calc/calc.js",
     "typesTest": "node src/types.js",
-    "Tutorial": "src/fileWork.js",
+    "Tutorial": "src/files.system/fileWork.js",
     "sort": "node src/sortBubble.js"
   },
   "repository": {
