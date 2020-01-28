@@ -1,4 +1,4 @@
-const {server} = require("../src/app2.js");
+const {server} = require("../src/javaScript/app2.js");
 const request = require("request-promise");
 
 describe('Testing server', () => {

@@ -1,4 +1,4 @@
-const {bubbleSort} = require("../src/sortBubble");
+const {bubbleSort} = require("../src/javaScript/sortBubble");
 
 describe('Sorting for array', () => {
     const array = [6, 3, 2, 9, 1, 10, 15, -4, -7];
