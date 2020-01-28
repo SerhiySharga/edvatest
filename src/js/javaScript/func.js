@@ -1,5 +1,3 @@
-const fs = require('fs')
-
 sayHi();
 
 function sayHi() {
@@ -9,22 +7,22 @@ function sayHi() {
 
 const func = function() {
     console.log('Hello');
-}
+};
 func();
 
 const func2 = func;
 func2();
 
 console.log(typeof sayHi);
-console.log(sayHi.toString())
+console.log(sayHi.toString());
 
-const funcArr = (name) => {
+const funcArr =name => {
     console.log(`Hello, ${name}`);
-}
+};
 
 funcArr();
 
 module.exports.sayHi = sayHi;
 module.exports.func2 = func2;
 
-console.log(this)
+console.log(this);

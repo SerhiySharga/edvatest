@@ -1,6 +1,6 @@
 const add = function (firstNumber, secondNumber = 3) {
     return firstNumber + secondNumber;
-}
+};
 
 /*
 function subtract(){
@@ -24,3 +24,4 @@ divide();
  */
 
 module.exports.addFunc = (a, b) => a + b;
+module.exports.add = add;

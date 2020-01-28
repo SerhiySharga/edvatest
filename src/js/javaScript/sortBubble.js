@@ -1,4 +1,4 @@
-module.exports.bubbleSort = (array) => {
+module.exports.bubbleSort =array => {
     let length = array.length;
 
     for (let i = 0; i < length - 1; i++) {
@@ -12,7 +12,6 @@ module.exports.bubbleSort = (array) => {
     }
     return array;
     console.log(array);
-}
-
+};
 
 // module.exports.bubbleSort = bubbleSort()

@@ -1,7 +1,7 @@
-const {addFunc} = require("../src/calc/calc");
+const {addFunc} = require('../src/js/calc/calc');
 
 describe('Adding two numbers', () => {
     it('Test2', () => {
-        expect(addFunc(2, 4)).toBe(2 + 4, "Result correct");
-    })
+        expect(addFunc(2, 4)).toBe(2 + 4, 'Result correct');
+    });
 });

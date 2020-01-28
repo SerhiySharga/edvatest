@@ -1,10 +1,10 @@
-const {server} = require("../src/javaScript/app2.js");
-const request = require("request-promise");
+const {server} = require('../src/js/javaScript/app2.js');
+const request = require('request-promise');
 
 describe('Testing server', () => {
     beforeAll(() => {
         server.listen(3001);
-    })
+    });
 
     it('/ url', async () => {
         const resp = await request({
@@ -19,7 +19,7 @@ describe('Testing server', () => {
 
         expect(resp.body).toBe('Home page!', 'Result incorrect');
         expect(resp.statusCode).toBe(200, 'Result incorrect');
-    })
+    });
 
     it('/ url', async () => {
         const resp = await request({
@@ -35,9 +35,9 @@ describe('Testing server', () => {
         expect(resp.body).toBe('User list!', 'Result incorrect');
         expect(resp.statusCode).toBe(200, 'Result incorrect');
         expect(resp.statusMessage).toBe('test users', 'Result incorrect');
-    })
+    });
 
     afterAll(() => {
         process.exit();
-    })
-})
+    });
+});

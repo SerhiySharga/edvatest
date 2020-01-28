@@ -33,6 +33,7 @@
   "exclude": [
     "node_modules",
     "tmp",
-    "../spec/helpers/reporter.js",
+    "./spec/helpers/reporter.js",
+    "./src/js/"
   ]
 }

@@ -31,7 +31,8 @@
       true,
       "spaces",
       4
-    ]
+    ],
+    "no-console": false
   },
   "rules": {
     "member-access": [
@@ -67,7 +68,7 @@
     ],
     "no-console": false,
     "typedef": [
-      true,
+      false,
       "call-signature",
       "arrow-call-signature",
       "parameter",

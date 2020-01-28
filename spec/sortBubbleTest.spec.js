@@ -1,11 +1,11 @@
-const {bubbleSort} = require("../src/javaScript/sortBubble");
+const {bubbleSort} = require('../src/js/javaScript/sortBubble');
 
 describe('Sorting for array', () => {
     const array = [6, 3, 2, 9, 1, 10, 15, -4, -7];
 
     it('Verify sorting', () => {
         expect(bubbleSort([...array])).toEqual([...array].sort((a, b) => a - b), '');
-    })
+    });
 
     //it('Bubble sorting in a progress', () => {
       //  expect(bubbleSort([6, 3, 2, 9, 1])[array.length - 1]).toBe([1, 3, 2, 9, 1]);
