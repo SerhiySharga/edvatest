@@ -16,8 +16,7 @@
     "types": [
       "jasmine",
       "jasminewd2",
-      "node",
-      "grunt"
+      "node"
     ],
     "experimentalDecorators": true,
     "skipLibCheck": true,
