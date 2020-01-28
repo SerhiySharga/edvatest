@@ -8,7 +8,14 @@
     "first": "node src/calc/calc.js",
     "typesTest": "node src/javaScript/types.js",
     "Tutorial": "src/files.system/fileWork.js",
-    "sort": "node src/javaScript/sortBubble.js"
+    "sort": "node src/javaScript/sortBubble.js",
+    "tsc": "tsc",
+    "build:ts": "tsc --outDir tmp",
+    "prebuild:ts": "npm run lint",
+    "lint": "tslint -p tsconfig.json",
+    "prebuild:fix": "npm run lint:fix",
+    "build:fix": "tsc",
+    "lint:fix": "tslint -p tsconfig.json --fix"
   },
   "repository": {
     "type": "git",
